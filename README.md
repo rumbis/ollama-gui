@@ -17,7 +17,7 @@ pip install streamlit langchain chat-models callbacks
 
 ## Running the Streamlit Chat Application
 
-1. Update `LLAMA_MODEL` and `LLAMA_BASE_URL` with the correct values for your environment. For this example, use "llama2:latest" and "localhost:11434".
+1. Update `LLM_MODEL` and `LLM_BASE_URL` with the correct values for your environment. For this example, use "llama2:latest" and "localhost:11434".
 
 
 
