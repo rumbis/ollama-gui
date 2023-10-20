@@ -14,15 +14,15 @@ from langchain.chat_models import ChatOllama
 from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
 
 # Update these variables with your own values
-LLAMA_MODEL = "llama2:latest"
-LLAMA_BASE_URL = "http://localhost:11434"
+LLM_MODEL = "llama2:latest"
+LLM_BASE_URL = "http://localhost:11434"
 
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
 chat_model = ChatOllama(callback_manager=callback_manager)
 
-chat_model.model = LLAMA_MODEL
-chat_model.base_url = LLAMA_BASE_URL
+chat_model.model = LLM_MODEL
+chat_model.base_url = LLM_BASE_URL
 
 SYSTEM_PROMPT = f"""
 You are a helpful chatbot. 
