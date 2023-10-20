@@ -18,3 +18,10 @@ pip install streamlit langchain chat-models callbacks
 ## Running the Streamlit Chat Application
 
 1. Update `LLAMA_MODEL` and `LLAMA_BASE_URL` with the correct values for your environment. For this example, use "llama2:latest" and "localhost:11434".
+
+
+
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing your Streamlit Python script.
+3. Run `streamlit run chat.py This will start the Streamlit server from that script.
